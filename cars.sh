@@ -1,12 +1,12 @@
-#/bin/bash
+#! /bin/bash
 #cars.sh
 #Christopher Isidro
 INPUT="0"
 while [ "$INPUT" -ne "3" ]
 do
-        echo "Type "1" to Add a car"
-        echo "Type "2" to List the cars in the inventory file"
-        echo "Type "3" to Quit the program"
+        echo "Type 1 to Add a car"
+        echo "Type 2 to List the cars in the inventory file"
+        echo "Type 3 to Quit the program"
         read -r INPUT
         case "$INPUT" in
                 "1") echo "Year of the car: "
